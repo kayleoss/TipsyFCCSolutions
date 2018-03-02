@@ -8,7 +8,6 @@ function sumAll(arr) {
     for (i = 0; i <= difference; i++){
         array.push(lowest + i);
     }
-    console.log(array);
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
     
     
